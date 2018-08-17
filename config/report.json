@@ -1,0 +1,291 @@
+{
+    "category": [
+        {
+            "name": "Server Performance",
+            "file": "ServerPerf.tsv",
+            "timeCol": 0,            
+            "graphs": [
+                { 
+                    "name": "% CPU",
+                    "series": [
+                        {
+                            "name": "CPU 0",
+                            "col": 23,
+                            "op": "",
+                            "decimals": 4
+                        },
+                        {
+                            "name": "CPU 1",
+                            "col": 24,
+                            "op": "",
+                            "decimals": 4
+                        }  , 
+                        {
+                            "name": "CPU 2",
+                            "col": 25,
+                            "op": "",
+                            "decimals": 4
+                        },      
+                        {
+                            "name": "CPU 3",
+                            "col": 26,
+                            "op": "",
+                            "decimals": 4
+                        },      
+                        {
+                            "name": "Total CPU",
+                            "col": 27,
+                            "op": "",
+                            "decimals": 4
+                        }                                                                                 
+                    ]
+                }, 
+                { 
+                    "name": "CPU distribution Time 0",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "%Privileged Time",
+                            "col": 28,
+                            "op": "",
+                            "decimals": 4
+                        },
+                        {
+                            "name": "%User Time",
+                            "col": 33,
+                            "op": "",
+                            "decimals": 4
+                        }                                              
+                    ]
+                },   
+                { 
+                    "name": "CPU distribution Time 1",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "%Privileged Time",
+                            "col": 29,
+                            "op": "",
+                            "decimals": 4
+                        },
+                        {
+                            "name": "%User Time",
+                            "col": 34,
+                            "op": "",
+                            "decimals": 4
+                        }                                              
+                    ]
+                },    
+                { 
+                    "name": "CPU distribution Time 2",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "%Privileged Time",
+                            "col": 30,
+                            "op": "",
+                            "decimals": 4
+                        },
+                        {
+                            "name": "%User Time",
+                            "col": 35,
+                            "op": "",
+                            "decimals": 4
+                        }                                              
+                    ]
+                },  
+                { 
+                    "name": "CPU distribution Time 3",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "%Privileged Time",
+                            "col": 31,
+                            "op": "",
+                            "decimals": 4
+                        },
+                        {
+                            "name": "%User Time",
+                            "col": 36,
+                            "op": "",
+                            "decimals": 4
+                        }                                              
+                    ]
+                },  
+                { 
+                    "name": "Procesor Queue",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "Number of process",
+                            "col": 38,
+                            "op": "",
+                            "decimals": 4
+                        }                      
+                    ]
+                },  
+                { 
+                    "name": "Stolen CPU",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "CPU Stolen time",
+                            "col": 40,
+                            "op": "m:1000",
+                            "decimals": 4
+                        }                      
+                    ]
+                },                                                                                                   
+                { 
+                    "name": "Working Set",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "Working Set",
+                            "col": 18,
+                            "op": "d:1024",
+                            "decimals": 4
+                        }                      
+                    ]
+                },                    
+                { 
+                    "name": "Free Memory",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "Available Memory",
+                            "col": 1,
+                            "op": "d:1024",
+                            "decimals": 4
+                        }                      
+                    ]
+                },
+                { 
+                    "name": "Memory Pagination",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "Pages/sec",
+                            "col": 2,
+                            "op": "d:1024",
+                            "decimals": 4
+                        }                      
+                    ]
+                },                   
+                { 
+                    "name": "Page File",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "% Page file usage",
+                            "col": 5,
+                            "op": "",
+                            "decimals": 4
+                        }                      
+                    ]
+                },   
+                { 
+                    "name": "Disk Activity C",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "Read Bytes",
+                            "col": 6,
+                            "op": "d:1024",
+                            "decimals": 4
+                        },                     
+                        {
+                            "name": "Write Bytes",
+                            "col": 10,
+                            "op": "d:1024",
+                            "decimals": 4
+                        }                        
+                    ]
+                },   
+                { 
+                    "name": "Disk Split C",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "Split IO Sec",
+                            "col": 14,
+                            "op": "",
+                            "decimals": 4
+                        }                      
+                    ]
+                },  
+                { 
+                    "name": "Disk Average Transfer C",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "Avg. Disk sec",
+                            "col": 18,
+                            "op": "m:1000",
+                            "decimals": 4
+                        }                      
+                    ]
+                },                                         
+                { 
+                    "name": "Disk Activity E",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "Read Bytes",
+                            "col": 7,
+                            "op": "d:1024",
+                            "decimals": 4
+                        },                     
+                        {
+                            "name": "Write Bytes",
+                            "col": 11,
+                            "op": "d:1024",
+                            "decimals": 4
+                        }                        
+                    ]
+                }, 
+                { 
+                    "name": "Disk Split E",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "Split IO Sec",
+                            "col": 15,
+                            "op": "",
+                            "decimals": 4
+                        }                      
+                    ]
+                },  
+                { 
+                    "name": "Disk Average Transfer E",
+                    "timeCol": 0,
+                    "series": [
+                        {
+                            "name": "Avg. Disk sec",
+                            "col": 19,
+                            "op": "m:1000",
+                            "decimals": 4
+                        }                      
+                    ]
+                },                                                                                                                                            
+                { 
+                    "name": "Network Trafic",
+                    "series": [
+                        {
+                            "name": "Input Trafic",
+                            "col": 3,
+                            "op": "d:1000",
+                            "decimals": 4
+                        },
+                        {
+                            "name": "Output Trafic",
+                            "col": 4,
+                            "op": "d:1000",
+                            "decimals": 4
+                        }                        
+                    ]
+                }              
+            ]
+        }
+    ]
+}
